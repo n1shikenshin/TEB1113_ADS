@@ -73,7 +73,7 @@ public:
 
         Node * current = top;
         cout << "Stack elements: ";
-        while (cirremt != nullptr){
+        while (current != nullptr){
             cout << current->data << " ";
             current = current->next_ptr;
         }
@@ -86,7 +86,7 @@ public:
             pop();
         }
     }
-}
+};
 
 int main() {
     Stack s(3);
